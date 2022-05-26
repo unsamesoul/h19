@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: cursive;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    margin-bottom: 3em;
+    background-color: rgb(200, 103, 98);
+}
+
+ul  {
+    display: flex;
+    list-style-type: space-counter;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 85px;
+    height: 85px;
+    margin-left: 0px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    font-size: 1.5rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 10px;
+    padding-left: 20px;
+    flex-basis: 40px;
+    float: left;
+    margin: 0 0 0 5%;
+    padding: 1%;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: right;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: rgb(200, 103, 98);
+    flex: 0 0 auto;
+}
